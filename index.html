@@ -787,19 +787,22 @@
 
         .pricing-features li {
             padding: 12px 0;
-            padding-left: 30px;
+            padding-left: 35px;
             position: relative;
             color: var(--light-gray);
             line-height: 1.6;
         }
 
         .pricing-features li::before {
-            content: '✓';
+            content: '✔';
             position: absolute;
             left: 0;
+            top: 12px;
             color: var(--primary);
-            font-weight: 700;
-            font-size: 18px;
+            font-weight: 900;
+            font-size: 16px;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1;
         }
 
         .pricing-preview {
@@ -1358,6 +1361,12 @@
             .pricing-features li {
                 font-size: 14px;
                 padding: 10px 0;
+                padding-left: 30px;
+            }
+
+            .pricing-features li::before {
+                top: 10px;
+                font-size: 14px;
             }
 
             .pricing-preview {
