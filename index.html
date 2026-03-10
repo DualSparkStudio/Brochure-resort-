@@ -678,9 +678,9 @@
 
         .pricing-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 30px;
-            max-width: 1200px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            max-width: 1400px;
             margin: 0 auto;
         }
 
@@ -1180,7 +1180,8 @@
             }
 
             .pricing-grid {
-                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
             }
 
             .pricing-card.featured {
@@ -1695,8 +1696,7 @@
             <p class="section-subtitle">Transparent pricing with no hidden fees. All plans include booking system and admin dashboard.</p>
         </div>
         <div class="pricing-grid">
-            <div class="pricing-card featured">
-                <div class="pricing-badge">Most Popular</div>
+            <div class="pricing-card">
                 <h3>Standard Theme</h3>
                 <div class="pricing-price">₹40,000</div>
                 <ul class="pricing-features">
@@ -1706,17 +1706,18 @@
                     <li>Mobile responsive design</li>
                     <li>Payment gateway integration</li>
                     <li>1 OTA integration</li>
+                    <li>QR food ordering system</li>
                     <li>Basic customization</li>
                 </ul>
                 <div class="pricing-preview">
                     <strong>Live Preview:</strong><br>
                     <a href="https://resortbookingsystem.netlify.app" target="_blank">resortbookingsystem.netlify.app</a>
                 </div>
-                <a href="#contact" class="btn btn-primary pricing-cta">Get Started</a>
+                <a href="#contact" class="btn btn-secondary pricing-cta">Get Started</a>
             </div>
             <div class="pricing-card">
                 <h3>Airbnb Style Theme</h3>
-                <div class="pricing-price">₹45,000</div>
+                <div class="pricing-price">₹43,000</div>
                 <ul class="pricing-features">
                     <li>Airbnb-inspired layout</li>
                     <li>Advanced booking system</li>
@@ -1724,6 +1725,7 @@
                     <li>Enhanced user experience</li>
                     <li>Payment gateway integration</li>
                     <li>1 OTA integration</li>
+                    <li>QR food ordering system</li>
                     <li>Extended customization</li>
                 </ul>
                 <div class="pricing-preview">
@@ -1732,6 +1734,26 @@
                 </div>
                 <a href="#contact" class="btn btn-secondary pricing-cta">Get Started</a>
             </div>
+            <div class="pricing-card featured">
+                <div class="pricing-badge">Most Popular</div>
+                <h3>Premium Resort Suite</h3>
+                <div class="pricing-price">₹45,000</div>
+                <ul class="pricing-features">
+                    <li>Choice of Standard or Airbnb theme</li>
+                    <li>Complete booking system</li>
+                    <li>Premium admin dashboard</li>
+                    <li>QR food ordering system</li>
+                    <li>QR room service & housekeeping</li>
+                    <li>Payment gateway integration</li>
+                    <li>1 OTA integration</li>
+                    <li>Advanced customization</li>
+                </ul>
+                <div class="pricing-preview no-link">
+                    <strong>Perfect for:</strong><br>
+                    Full-service resorts with comprehensive guest services
+                </div>
+                <a href="#contact" class="btn btn-primary pricing-cta">Get Started</a>
+            </div>
             <div class="pricing-card">
                 <h3>Custom Theme</h3>
                 <div class="pricing-price">₹50,000<span>+</span></div>
@@ -1739,6 +1761,8 @@
                     <li>Fully custom design</li>
                     <li>Unlimited custom pages</li>
                     <li>Advanced booking features</li>
+                    <li>QR food ordering system</li>
+                    <li>QR room service & housekeeping</li>
                     <li>Complete branding control</li>
                     <li>Priority support</li>
                     <li>Tailored to your vision</li>
